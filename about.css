@@ -1,0 +1,47 @@
+
+.profile-header {
+    margin-top: 2em;
+}
+
+.profile-photo {
+    width: 182px;
+}
+
+.main-heading {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    width: 95%;
+    margin-top: 1em;
+}
+
+.subhead {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.jr-para {
+    font-size: 1rem;
+    line-height: 1.5em;
+    width: 374px;
+}
+
+.new-post-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
+.journey-header-container {
+    width: 394px;
+    margin: auto;
+    display: block;
+    margin-top: 1em;
+}
+
+.subheading-p {
+    margin-top: 2em;
+    display: inline-block;
+
+}
