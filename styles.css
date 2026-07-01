@@ -1,5 +1,163 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Source Code Pro, sans-serif;
+}
+
+/* header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    background-color: white;
+    height: 59px;
+}
+
+h1 {
+    font-size: 0.85rem;
+    font-weight: 900;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.logo {
+    width: 23px;
+} 
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 0.5em;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-list-item {
+    padding-right: 1em;
+}
+
+/* hero */
+
+.hero-container {
+    height: 293px;
+    width: 100%;
+    background-image:url('images/hero.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-block: 2em;
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3em;
+    grid-template-areas: 
+        "."
+        "a"
+        "b"
+        "c"
+        ".";
+}
+
+.blog-post {
+    height: 368px;
+    width: 394px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;  
+}
+
+.blog-post-one {
+    grid-area: a;
+}
+
+.blog-post-two {
+    grid-area: b;
+}
+.blog-post-three {
+    grid-area: c;
+}
+
+.blog-post h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.blog-date {
+    font-size: 0.88rem;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+.blog-para {
+    font-size: 1rem;
+    color: #505050;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.view-more-container {
+    display: flex;
+    justify-content: center;
+    margin-block: 2.2em;
+}
+
+.view-more-button {
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+}
+
+/* footer */
+
+.footer-container {
+    height: 105px;
+    color: #D7D7D7;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer-slogan, .footer-date {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 0.75rem;
+     gap: 0.5em;
 }
