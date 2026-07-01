@@ -1,0 +1,9 @@
+.journey-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journey-header-container h2 {
+    font-size: 1rem;
+}
