@@ -1,2 +1,2 @@
 # Scrimba-blog-project
-responsive project 
+responsive desgin project 
